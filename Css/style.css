@@ -1,0 +1,38 @@
+body {
+    display: block;
+    background-color: #ebf6e5;
+    padding:70px 100px 70px 100px ;
+    min-height: 100%;
+}
+
+.block {
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 20px 20px 20px;
+}
+
+.left_side {
+    display: block;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.logo_block {
+    margin: 20px 20px 20px 20px;
+    display: block;
+    height: 10%;
+    width: 80%;
+}
+
+.logo_block__picture {
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+.info_block{
+    float: right;
+    width: 65%;
+    min-height: 100%;
+}
