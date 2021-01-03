@@ -18,20 +18,21 @@ body {
     float: left;
 }
 
-.logo_block {
+.logo-block {
+    background-color: transparent;
     margin: 20px 20px 20px 20px;
     display: block;
     height: 10%;
     width: 80%;
 }
 
-.logo_block__picture {
+.logo-block__picture {
     height: 100%;
     width: 30%;
     float: left;
 }
 
-.info_block{
+.stats-block{
     float: right;
     width: 65%;
     min-height: 100%;
