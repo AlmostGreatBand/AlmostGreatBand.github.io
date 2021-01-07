@@ -7,13 +7,13 @@ body {
 
 .block {
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 20px 20px 20px 20px;
 }
 
 .left_side {
     display: block;
-    width: 30%;
+    width: 25%;
     height: 100%;
     float: left;
 }
@@ -22,18 +22,78 @@ body {
     background-color: transparent;
     margin: 20px 20px 20px 20px;
     display: block;
-    height: 10%;
+    height: 60px;
     width: 80%;
 }
 
 .logo-block__picture {
     height: 100%;
-    width: 30%;
+    width: 60px;
     float: left;
 }
 
+/*TODO: put logo-block__name on the same level as logo */
+
+.card-block {
+    height: 180px;
+}
+
+.card-block__card{
+    height: 70%;
+    border-radius: 12px;
+    margin: 15px 15px 15px 15px; /* can't create margin top */
+    background-color: #a5d281;
+}
+
+.card-block__drop-down-menu {
+    text-align: center;
+}
+
+.transactions-block__add-transaction{
+    margin: 15px 15px 5px 15px; /* can't create margin top */
+    border: 1px solid #3D82EA;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    color: #3D82EA;
+}
+
+.transactions-block__last-transactions{
+    overflow-y: auto;
+}
+
+.transactions-block__day{
+    margin: 10px 10px 10px 10px;
+}
+
+.tranasaction{
+    margin: 10px 10px 10px 10px;
+}
+
+.tranasaction__picture{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    float: left;
+}
+
+.tranasaction__name {
+
+}
+
+.tranasaction__type {
+    float: left;
+}
+
+.tranasaction__amount{
+    text-align: right;
+}
+
+/*TODO: add line between transaction blocks*/
+
 .stats-block{
     float: right;
-    width: 65%;
+    width: 70%;
     min-height: 100%;
 }
